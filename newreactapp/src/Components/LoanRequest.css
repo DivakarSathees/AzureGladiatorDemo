@@ -1,0 +1,55 @@
+/* LoanRequest.css */
+
+/* Add some basic styling to the container */
+div {
+  margin: 20px;
+}
+
+/* Style the back button */
+button {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style the table header */
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the buttons in the last column */
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Style the buttons differently based on their action */
+button.approve {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+button.reject {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
